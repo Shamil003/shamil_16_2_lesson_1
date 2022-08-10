@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+        .box {
+            width: 406px;
+            height: 400px;
+            position: relative;
+            border: 1px solid black;
+        }
+        .block {
+            position:absolute;
+            width: 50px;
+            height: 50px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="phoneInput">Введите свой ИНН</label>
+        <input class="phoneInput" placeholder="0xxxxxxxxxxxxx" type="'text">
+        <button class="phoneCheck">Check</button>
+        <span class="phoneResult"></span>
+    </div>
+    <div class="box">
+        <div class="block"></div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
